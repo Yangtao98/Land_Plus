@@ -1,9 +1,9 @@
 
 /* Fonts */
 :root {
-  --font-default: Roboto;
-  --font-primary: Roboto;
-  --font-secondary: Roboto;
+  --font-default: 'Roboto';
+  --font-primary: 'Roboto';
+  --font-secondary: 'Roboto';
 }
 
 /* Colors */
