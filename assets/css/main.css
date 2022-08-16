@@ -1,9 +1,9 @@
 
 /* Fonts */
 :root {
-  --font-default: 'Roboto';
-  --font-primary: 'Roboto';
-  --font-secondary: 'Roboto';
+  --font-default: 'Roboto', sans-serif;
+  --font-primary: ''Roboto', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
 }
 
 /* Colors */
@@ -22,7 +22,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   color: var(--color-default);
 }
 
