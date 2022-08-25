@@ -223,6 +223,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  new Swiper('.ready-slider', {
+    speed: 300,
+    loop: true,
+    centeredSlides: false,
+    autoplay: {
+      delay: 10000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 100
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      }
+    }
+  });
+
   /**
    * Animation on scroll function and init
    */
